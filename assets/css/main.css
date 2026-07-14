@@ -4153,7 +4153,7 @@ p.pricing-section-title {
 
 /* ── Copyright bar ── */
 #wrapper .copyright {
-	color: rgba(0,0,0,0.32) !important;
+	color: rgba(0,0,0) !important;
 	font-size: 0.78rem !important;
 	padding-top: 1.5rem !important;
 }
