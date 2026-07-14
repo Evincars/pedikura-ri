@@ -3378,8 +3378,10 @@ input, select, textarea {
 					}
 
 				#wrapper > section.intro > .content {
-					height: 100vh;
+					height: auto;
+					min-height: 500px;
 					max-width: none;
+					padding-bottom: 2rem;
 				}
 
 			#wrapper > section:last-of-type > header:before {
@@ -4175,15 +4177,15 @@ p.pricing-section-title {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 500px;
-	background: linear-gradient(135deg, #ffffff 0%, #ffffff 50%, rgba(255, 255, 255, 0.95) 70%, transparent 100%);
-	padding: 2rem;
-	border-radius: 0.5rem;
+	min-height: 100%;
+	background: transparent;
+	padding: 0;
+	border-radius: 0;
 }
 
 .intro-logo {
-	max-width: 350px;
-	width: 90%;
+	max-width: 500px;
+	width: 100%;
 	height: auto;
 	filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.08));
 }
@@ -4194,11 +4196,11 @@ p.pricing-section-title {
 	}
 
 	.intro-logo-gradient {
-		min-height: 400px;
+		min-height: auto;
 	}
 
 	.intro-logo {
-		max-width: 280px;
+		max-width: 400px;
 	}
 }
 
@@ -4212,12 +4214,12 @@ p.pricing-section-title {
 	}
 
 	.intro-logo-gradient {
-		min-height: 300px;
-		padding: 1rem;
+		min-height: auto;
+		padding: 0;
 	}
 
 	.intro-logo {
-		max-width: 220px;
+		max-width: 100%;
 	}
 }
 
