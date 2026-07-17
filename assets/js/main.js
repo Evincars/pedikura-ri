@@ -24,7 +24,12 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 10);
+		});
+
+	// Remove preload state on DOM ready for faster initial render
+		$(document).ready(function() {
+			// Preload class will be removed by load event above
 		});
 
 	// Hack: Enable IE workarounds.

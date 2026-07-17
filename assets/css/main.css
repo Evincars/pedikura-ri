@@ -3815,11 +3815,11 @@ input, select, textarea {
 	}
 
 	#wrapper:before {
-		transition: opacity 1s ease;
+		transition: opacity 0.2s ease;
 	}
 
 		body.is-preload #wrapper:before {
-			opacity: 0;
+			opacity: 1;
 		}
 
 	#wrapper > section.intro {
