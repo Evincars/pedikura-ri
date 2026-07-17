@@ -3823,34 +3823,34 @@ input, select, textarea {
 		}
 
 	#wrapper > section.intro {
-		transition: opacity 1s ease;
+		transition: opacity 0.2s ease;
 		opacity: 1;
 	}
 
 		#wrapper > section.intro > header {
-			transition: transform 1s ease;
+			transition: transform 0.3s ease 0.05s;
 		}
 
 		#wrapper > section.intro > .content {
-			transition: transform 1s ease;
+			transition: transform 0.3s ease 0.05s;
 		}
 
 		body.is-preload #wrapper > section.intro {
-			opacity: 0;
+			opacity: 1;
 		}
 
 			body.is-preload #wrapper > section.intro > header {
-				transform: translateY(1rem);
+				transform: translateY(0.2rem);
 			}
 
 			body.is-preload #wrapper > section.intro > .content {
-				transform: translateY(-1rem);
+				transform: translateY(-0.2rem);
 			}
 
 		@media screen and (max-width: 1280px) {
 
 			#wrapper > section.intro > header > * {
-				transition: transform 1s ease, opacity 1s ease;
+				transition: transform 0.3s ease 0.1s, opacity 0.3s ease 0.1s;
 			}
 
 			body.is-preload #wrapper > section.intro > header {
@@ -3858,8 +3858,8 @@ input, select, textarea {
 			}
 
 				body.is-preload #wrapper > section.intro > header > * {
-					transform: translate(-0.5rem);
-					opacity: 0;
+					transform: translate(-0.1rem);
+					opacity: 1;
 				}
 
 			body.is-preload #wrapper > section.intro > .content {
